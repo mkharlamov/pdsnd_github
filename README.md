@@ -2,7 +2,7 @@
 15.02.2019
 
 ### Project Title
-Bikeshare data analysis
+Bike share data analysis
 
 ### Description
 The project allows to interactively explore bike share data for the cities of Chicago, New York and Washington.
