@@ -12,5 +12,5 @@ It calculates and displays such metrics as: the most frequent times of travel, t
 bikeshare.py - the main python script that contains all the code for this mini project
 
 ### Credits
-Udacity nanodegree Programming for Data Science (https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
+Udacity nanodegree [Programming for Data Science](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104 "Udacity Course Page")
 
