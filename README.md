@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+15.02.2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare data analysis
 
 ### Description
-Describe what your project is about and what it does
+The project allows to interactively explore bike share data for the cities of Chicago, New York and Washington.
+It calculates and displays such metrics as: the most frequent times of travel, the most popular stations, as well as customer's statistics (gender, age, etc)
 
 ### Files used
-Include the files used
+bikeshare.py - the main python script that contains all the code for this mini project
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity nanodegree Programming for Data Science (https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
 
