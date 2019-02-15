@@ -91,7 +91,7 @@ def load_data(city, month, day):
     user_input = ''
     print('Do you want to see the sample of the data (yes/no)?')
     user_input = input().lower()
-    step = 5
+    step = 10
     position = 0
     while user_input != 'no':
           print(df[position:position+step])
