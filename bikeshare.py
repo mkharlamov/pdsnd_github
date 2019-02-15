@@ -28,23 +28,26 @@ def get_filters():
     #regex = re.compile('[^a-zA-Z]')
     regex = re.compile('[^a-z\s]')
     
-    print('Hello! Let\'s explore some US bikeshare data!')
-    #Get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    #Initialise input variables with blank string
     city = ''
+    month = ''
+    day = ''
+    
+    print('Hello! Let\'s explore some US bikeshare data!')
+    
+    #Get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs    
     while city not in CITY_DATA:
         print('Please enter city (Chicago, New York City or Washington): ')
         city = input().lower()
         city = regex.sub('', city)
 
     #Get user input for month (all, january, february, ... , june)
-    month = ''
     while not ((month in MONTHS) or (month == 'all')):
         print('Please enter month to filter data, or "all" to continue without filtering by month: ')
         month = input().lower()
         month = regex.sub('', month)
 
     #Get user input for day of week (all, monday, tuesday, ... sunday)
-    day = ''
     while not ((day in DAYS_OF_WEEK) or (day == 'all')):
         print('Please enter day of week to filter data, or "all" to continue without filtering by day of week: ')
         day = input().lower()
@@ -88,7 +91,7 @@ def load_data(city, month, day):
     user_input = ''
     print('Do you want to see the sample of the data (yes/no)?')
     user_input = input().lower()
-    step = 5
+    step = 10
     position = 0
     while user_input != 'no':
           print(df[position:position+step])
